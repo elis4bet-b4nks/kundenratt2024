@@ -1,6 +1,6 @@
 .container {
     border: 5PX solid black;
-
+    margin: 5px;
 }
 
 #indexdiv {
@@ -57,4 +57,9 @@ aside {
 
 #staffsec3 {
     grid-area: ssc3;
+}
+
+img {
+    height: 50px;
+    width: 80px;
 }

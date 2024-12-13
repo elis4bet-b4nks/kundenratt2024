@@ -1,6 +1,8 @@
 .container {
     border: 5PX solid black;
     margin: 5px;
+    height: 590px;
+    width: 1205px;
 }
 
 #indexdiv {
@@ -45,6 +47,7 @@ aside {
 
 #contactsec {
     grid-area: ctsc;
+    font-size: larger;
 }
 
 #staffsec1 {
@@ -59,7 +62,27 @@ aside {
     grid-area: ssc3;
 }
 
-img {
-    height: 50px;
-    width: 80px;
+#logo {
+    height: 30px;
+    width: 30px;
+}
+
+#lionhat {
+    height: 450px;
+    width: 850px;
+}
+
+#huskystaff {
+    height: 500px;
+    width: 350px;
+}
+
+#yorkiestaff {
+    height: 500px;
+    width: 350px;
+}
+
+#goldenstaff {
+    height: 500px;
+    width: 350px;
 }

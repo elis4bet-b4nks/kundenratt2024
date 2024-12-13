@@ -1,0 +1,60 @@
+.container {
+    border: 5PX solid black;
+
+}
+
+#indexdiv {
+    grid-template-areas:
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'as dsc dsc dsc'
+    'as dsc dsc dsc' ;
+}
+
+#contactdiv {
+    grid-template-areas:
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'ctsc ctsc ctsc ctsc'
+    'ctsc ctsc ctsc ctsc' ;
+}
+
+#carrddiv {
+    grid-template-areas:
+    'hd hd hd hd hd hd'
+    'nv nv nv nv nv nv'
+    'ssc1 ssc1 ssc2 ssc2 ssc3 ssc3'
+    'ssc1 ssc1 ssc2 ssc2 ssc3 ssc3' ;
+}
+
+header {
+    grid-area: hd;
+}
+
+nav {
+    grid-area: nv;
+}
+
+aside {
+    grid-area: as;
+}
+
+#dogpicsec {
+    grid-area: dsc;
+}
+
+#contactsec {
+    grid-area: ctsc;
+}
+
+#staffsec1 {
+    grid-area: ssc1;
+}
+
+#staffsec2 {
+    grid-area: ssc2;
+}
+
+#staffsec3 {
+    grid-area: ssc3;
+}

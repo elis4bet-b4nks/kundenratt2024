@@ -1,6 +1,7 @@
 .container {
     border: 5PX solid black;
     margin: 5px;
+    display: grid;
     height: 590px;
     width: 1205px;
 }
@@ -27,6 +28,8 @@
     'nv nv nv nv nv nv'
     'ssc1 ssc1 ssc2 ssc2 ssc3 ssc3'
     'ssc1 ssc1 ssc2 ssc2 ssc3 ssc3' ;
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -35,14 +38,18 @@ header {
 
 nav {
     grid-area: nv;
+    text-align: left;
+    display: flex;
 }
 
-aside {
+#welcomep {
     grid-area: as;
+    margin: 15px;
 }
 
 #dogpicsec {
     grid-area: dsc;
+    margin: 25px;
 }
 
 #contactsec {
@@ -52,14 +59,17 @@ aside {
 
 #staffsec1 {
     grid-area: ssc1;
+    width: 270px;
 }
 
 #staffsec2 {
     grid-area: ssc2;
+    width: 270px;
 }
 
 #staffsec3 {
     grid-area: ssc3;
+    width: 270px;
 }
 
 #logo {
@@ -73,16 +83,16 @@ aside {
 }
 
 #huskystaff {
-    height: 500px;
-    width: 350px;
+    height: 400px;
+    width: 270px;
 }
 
 #yorkiestaff {
-    height: 500px;
-    width: 350px;
+    height: 400px;
+    width: 270px;
 }
 
 #goldenstaff {
-    height: 500px;
-    width: 350px;
+    height: 400px;
+    width: 270px;
 }

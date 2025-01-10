@@ -1,6 +1,5 @@
 .container {
     border: 5PX solid black;
-    margin: 5px;
     display: grid;
     height: 590px;
     width: 1205px;
@@ -32,14 +31,30 @@
     justify-content: center;
 }
 
+#ourstaffdiv {
+    text-align: left;
+}
+
+#contactusdiv {
+    text-align: center;
+}
+
 header {
     grid-area: hd;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #FCEEA2;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: dashed;
 }
 
 nav {
     grid-area: nv;
-    text-align: left;
-    display: flex;
+    font-size: 25px;
+    margin: 15px;
 }
 
 #welcomep {
@@ -49,7 +64,7 @@ nav {
 
 #dogpicsec {
     grid-area: dsc;
-    margin: 25px;
+    margin: 15px;
 }
 
 #contactsec {
@@ -60,26 +75,29 @@ nav {
 #staffsec1 {
     grid-area: ssc1;
     width: 270px;
+    margin: 10px;
 }
 
 #staffsec2 {
     grid-area: ssc2;
     width: 270px;
+    margin: 10px;
 }
 
 #staffsec3 {
     grid-area: ssc3;
     width: 270px;
+    margin: 10px;
 }
 
 #logo {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;    
 }
 
 #lionhat {
-    height: 450px;
-    width: 850px;
+    height: 290px;
+    width: 650px;
 }
 
 #huskystaff {

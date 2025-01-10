@@ -1,8 +1,7 @@
 .container {
-    border: 5PX solid black;
     display: grid;
-    height: 590px;
-    width: 1205px;
+    height: auto;
+    width: auto;
 }
 
 #indexdiv {
@@ -60,6 +59,7 @@ nav {
 #welcomep {
     grid-area: as;
     margin: 15px;
+    width: 220px;
 }
 
 #dogpicsec {
@@ -70,6 +70,7 @@ nav {
 #contactsec {
     grid-area: ctsc;
     font-size: larger;
+    margin: 15px;
 }
 
 #staffsec1 {
@@ -96,7 +97,7 @@ nav {
 }
 
 #lionhat {
-    height: 290px;
+    height: 400px;
     width: 650px;
 }
 

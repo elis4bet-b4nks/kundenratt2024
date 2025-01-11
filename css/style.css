@@ -10,6 +10,7 @@
     'nv nv nv nv'
     'as dsc dsc dsc'
     'as dsc dsc dsc' ;
+    display: grid;
 }
 
 #contactdiv {
@@ -18,6 +19,7 @@
     'nv nv nv nv'
     'ctsc ctsc ctsc ctsc'
     'ctsc ctsc ctsc ctsc' ;
+    display: grid;
 }
 
 #carrddiv {
@@ -56,6 +58,10 @@ nav {
     margin: 15px;
 }
 
+#staffsecdiv {
+    display: flex;
+}
+
 #welcomep {
     grid-area: as;
     margin: 15px;
@@ -75,19 +81,19 @@ nav {
 
 #staffsec1 {
     grid-area: ssc1;
-    width: 270px;
+    width: 240px;
     margin: 10px;
 }
 
 #staffsec2 {
     grid-area: ssc2;
-    width: 270px;
+    width: 240px;
     margin: 10px;
 }
 
 #staffsec3 {
     grid-area: ssc3;
-    width: 270px;
+    width: 240px;
     margin: 10px;
 }
 
@@ -102,16 +108,16 @@ nav {
 }
 
 #huskystaff {
-    height: 400px;
-    width: 270px;
+    height: 370px;
+    width: 240px;
 }
 
 #yorkiestaff {
-    height: 400px;
-    width: 270px;
+    height: 370px;
+    width: 240px;
 }
 
 #goldenstaff {
-    height: 400px;
-    width: 270px;
+    height: 370px;
+    width: 240px;
 }

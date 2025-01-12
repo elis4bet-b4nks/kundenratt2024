@@ -54,7 +54,7 @@
 }
 
 .nav a {
-    color: #000000;
+    color: #AE00FF;
     text-decoration: none;
 }
 
@@ -69,6 +69,10 @@
     background-color: #FFD700;
 }
 
+#welcome-p h2 {
+    color: #AE00FF;
+}
+
 #welcome-p {
     grid-area: as;
     margin: 15px;
@@ -79,14 +83,15 @@
     position: absolute;
     height: 400px;
     width: 650px;
+    filter: sepia(70%);
 }
 
 #staffcarddiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     flex-direction: row;
-    width: 100%;
+    width: 1250px;
 }
 
 #dogpicsec {
@@ -105,10 +110,12 @@
     width: 200px;
     height: auto;
     border-radius: 15px;
+    filter: sepia(100%);
 }
 
 #meetkaren, #meetdenise, #meetalice {
     font-size: large;
+    color: #AE00FF;
 }
 
 #contactsec {
